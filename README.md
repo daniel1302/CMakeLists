@@ -18,6 +18,15 @@
 
 ### Build
 
+#### Install libraries
+
+```
+git submodule init
+git submodule update
+```
+
+#### Build project
+
 ```
 cd build;
 cmake ../ -DWITH_GTEST=ON ;
